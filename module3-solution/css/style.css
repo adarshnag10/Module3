@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #e6faf3;
+	font-family: 'Piedra', cursive;
+}
+.navbar{
+	background-color: #1a1717;
+}
+.navbar-brand{
+	margin: 5px 0 0 30px;
+}
+.navbar-brand a{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	color: white;
+}
+.navbar button.navbar-toggler{
+	border: 2px solid white;
+	clear: both;
+	background-color: #a48fb3;
+}
+#nav-list .nav-item{
+	font-size: 1.3em;
+	text-align: center;
+}
+#nav-list a{
+	color: white;
+}
+#nav-list .nav-item:hover, #nav-list a:hover{
+	background-color:#a48fb3;
+	color: #cf0a0a;
+}
+#mainNav hr{
+	background-color: white;
+}
+#mainContent{
+	padding: 30px;
+}
+#menu-title{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.row .paras h3{
+	color: orange;
+	margin-bottom: 20px;
+}
+.row div div{
+	margin-top: 25px;
+	background-color: #1a1717;
+	padding: 25px;
+	color: white;
+	font-size: 1.1em;
+}
+
+.row .paras p a{
+	text-decoration: none;
+	font-size: 1.3em;
+}
